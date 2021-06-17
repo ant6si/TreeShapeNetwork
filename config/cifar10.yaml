@@ -1,0 +1,28 @@
+# Graph
+n: 1
+c: 1
+max_depth: 5
+borders: [2, 4]
+ops: ['conv_5', 'dil_3', 'conv_3', 'avg_3']
+
+# Train
+wlr: 0.1 # 0.025
+max_epoch: 160
+batch: 512
+
+# Regularization
+cutout: 0
+cutout_length: 16
+dropout: 0.  # Not implemented yet
+drop_node: 0.  # Not implemented yet
+drop_path: 0.
+
+# General
+gpus: '0'
+num: 1
+res_path: './result'
+data_path: './data'
+
+
+
+
